@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Adnestate</title>
+    <link rel="stylesheet" href="css/swiper.min.css ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header_logo">
+                <img src="img/headerLogo.png" alt="logo" class="header_logo__item">
+            </div>
+            <div class="header_nav">
+                <a href="#" class="header_nav__link">О нас</a>
+                <a href="#" class="header_nav__link">Каталог</a>
+                <a href="#" class="header_nav__link">Услуги</a>
+                <a href="#" class="header_nav__link">Команда</a>
+                <a href="#" class="header_nav__link">Контакты</a>
+            </div>
+            <span class="header_phone">+7 (499) 283-88-74</span>
+        </header>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h1>аукционный дом недвижимости №1</h1>
+                    <p>Продажа элитной и бизнес недвижимости за 30 дней по максимальной цене</p>
+                </div>
+                <div class="swiper-slide"><h1>аукционный дом недвижимости №1</h1>
+                    <p>Продажа элитной и бизнес недвижимости за 30 дней по максимальной цене</p></div>
+                <div class="swiper-slide"><h1>аукционный дом недвижимости №1</h1>
+                    <p>Продажа элитной и бизнес недвижимости за 30 дней по максимальной цене</p></div>
+                <div class="swiper-slide"><h1>аукционный дом недвижимости №1</h1>
+                    <p>Продажа элитной и бизнес недвижимости за 30 дней по максимальной цене</p></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="catalog-realty">
+            <h1>Каталог недвижимости</h1><br>
+            <form class="catalog-realty_form">
+                <div class="multiselect">
+                    <span>Тип недвижимости</span>
+                    <div class="selectBox" onclick="showCheckboxes()">
+                        <select>
+                            <option>Квартира</option>
+                        </select>
+                        <div class="overSelect"></div>
+                    </div>
+                    <div class="checkboxes" id="checkboxesProperty">
+                        <label for="one">
+                            <input type="checkbox" id="one" />Квартира</label>
+                        <label for="two">
+                            <input type="checkbox" id="two" />Дом</label>
+                        <label for="three">
+                            <input type="checkbox" id="three" />Таунхаус</label>
+                        <label for="four">
+                            <input type="checkbox" id="four" />Коммерческая</label>
+                    </div>
+                </div>
+                <div class="multiselect">
+                    <span>Комнат</span>
+                    <div class="selectBox" onclick="showCheckboxes1()">
+                        <select>
+                            <option>3,4,5</option>
+                        </select>
+                        <div class="overSelect"></div>
+                    </div>
+                    <div class="checkboxes" id="checkboxesRoom">
+                        <label for="room_3">
+                            <input type="checkbox" id="room_3" />3</label>
+                        <label for="room_4">
+                            <input type="checkbox" id="room_4" />4</label>
+                        <label for="room_5">
+                            <input type="checkbox" id="room_5" />5</label>
+                    </div>
+                </div>
+                <div class="multiselect">
+                    <span>Статус аукциона</span>
+                    <div class="selectBox" onclick="showCheckboxes2()">
+                        <select>
+                            <option>Все</option>
+                        </select>
+                        <div class="overSelect"></div>
+                    </div>
+                    <div class="checkboxes" id="checkboxesAuction">
+                        <label for="all">
+                            <input type="checkbox" id="all" />Все</label>
+                        <label for="current">
+                            <input type="checkbox" id="current" />Действует</label>
+                        <label for="wiilBe">
+                            <input type="checkbox" id="wiilBe" />Скоро начнется</label>
+                        <label for="completed">
+                            <input type="checkbox" id="completed" />Завершен</label>
+                    </div>
+                </div>
+                <div class="catalog-realty_form__price">
+                    <span>Цена</span>
+                    <div>
+                        <input type="text" placeholder="от">
+                        <input type="text" placeholder="-до">
+                    </div>
+                </div>
+                <div class="catalog-realty_form__area">
+                    <span>Площадь</span>
+                    <div>
+                        <input type="text" placeholder="от">
+                        <input type="text" placeholder="-до">
+                    </div>
+                </div>
+                <div class="catalog-realty_form__adress">
+                    <span>Город,район,метро,адрес</span>
+                    <input type="text" placeholder="Москва">
+                </div>
+            </form>
+            <button class="catalog-realty_button__viewInMaps">
+                <i class="fas fa-map-marker-alt"></i>
+                Показать на карте
+            </button>
+            <button class="catalog-realty_button__search">Найти</button>
+        </div>
+        <div class="img_galery1">
+            <div class="img_galery__wrap1">
+                <a href="#"><div><h2>Смоленский бульвар</h2></div></a>
+                <div class="img_galery__text">
+                    До конца акции осталось <strong>16</strong> дней <b>9</b> часов
+                </div>
+                <div class="img_galery__price">19 500 000 &#8381;</div>
+            </div>
+            <div class="img_galery__wrap2">
+                <a href="#"><h2>ЖК «Гранд Парк»</h2></a>
+                <div class="img_galery__text">
+                    Старт акции через 3 дня 5 часов
+                </div>
+                <div class="img_galery__price">29 900 000 &#8381;</div>
+            </div>
+        </div>
+        <div class="img_galery2">
+            <div class="img_galery__wrap3">
+                <a href="#"><h2>Алые Паруса</h2></a>
+                <div class="img_galery__text">
+                    Акция окончена
+                </div>
+                <div class="img_galery__price">20 000 000 &#8381;</div>
+            </div>
+            <div class="img_galery__wrap4">
+                <a href="#"><h2>светлый дом в лужках</h2></a>
+                <div class="img_galery__text">
+                    Акция окончена
+                </div>
+                <div class="img_galery__price">10 500 000 &#8381;</div>
+            </div>
+        </div>
+        <div class="img_galery3">
+            <div class="img_galery__wrap5">
+                <a href="#"><h2>Четырехуровневый дом в КП "Владычино"</h2></a>
+                <div class="img_galery__text">
+                    Акция окончена
+                </div>
+                <div class="img_galery__price">18 000 000 &#8381;</div>
+            </div>
+            <div class="img_galery__wrap6">
+                <a href="#"><h2>апартаменты в мфк фили град</h2></a>
+                <div class="img_galery__text">
+                    Акция окончена
+                </div>
+                <div class="img_galery__price">5 500 000 &#8381;</div>
+            </div>
+            <div class="img_galery__wrap7">
+                <a href="#"><h2>садовая италия</h2></a>
+                <div class="img_galery__text">
+                    Акция окончена
+                </div>
+                <div class="img_galery__price">29 900 000 &#8381;</div>
+            </div>
+        </div>
+        <section class="subscription">
+            <h2>Подписаться на новости</h2>
+            <form action="#">
+                <input type="email" placeholder="email">
+                <button>Отправить</button>
+            </form>
+        </section>
+        <section class="services">
+            <h1>Услуги</h1>
+            <div class="services_sale">
+                <h2>Продажа</h2>
+                <p>недвижимости за месяц по рыночной цене</p>
+                <a href="#">Подробнее</a>
+            </div>
+            <div class="services_buy">
+                <h2>Покупка</h2>
+                <p>новостроек бизнес и элитного класса</p>
+                <a href="#">Подробнее</a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer_up">
+                <div class="footer_up__logo">
+                    <img src="img/headerLogo.png" alt="logo">
+                </div>
+                <nav class="footer_up__menu">
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer_up__contacts">
+                    <span>+7 (499) 283-88-74</span><br><br>
+                    <span>Info@adnestate.ru</span><br><br>
+                    <p>101000, г. Москва,
+                        Большой Спасоглинищевский пер.,
+                        дом 8, стр. 8, офис 3</p>
+                </div>
+                <form action="#">
+                    <input type="name" placeholder="Имя">
+                    <input type="tel" placeholder="Телефон">
+                    <button>Получить консультацию</button>
+                </form>
+            </div>
+            <div class="footer_down">
+                <p>&copy; Copyright 2018 ADNestate</p>
+                <a class="footer_down__facebook" href="https://www.facebook.com/adnworking"><i class="fab fa-facebook-f fa-xs"></i></a>
+                <a class="footer_down__instagram" href="https://www.instagram.com/a.d.n.estate/"><i class="fab fa-instagram fa-xs"></i></a>
+                <a class="footer_down__youtube" href="https://www.youtube.com/channel/UCJASa-2jP1ioETCCptWcvzA"><i class="fab fa-youtube fa-xs"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/swiper.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
