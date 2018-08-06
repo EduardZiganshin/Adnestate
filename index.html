@@ -43,9 +43,9 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
+        <h1 class="catalog-realty_title">Каталог недвижимости</h1>
         <div class="catalog-realty">
-            <h1>Каталог недвижимости</h1><br>
-            <form class="catalog-realty_form">
+            <!-- <form class="catalog-realty_form">
                 <div class="multiselect">
                     <span>Тип недвижимости</span>
                     <div class="selectBox" onclick="showCheckboxes()">
@@ -119,7 +119,67 @@
                     <span>Город,район,метро,адрес</span>
                     <input type="text" placeholder="Москва">
                 </div>
-            </form>
+            </form> -->
+            <div class="catalog-realty_form1">
+            	<h3>Тип недвижимости</h3>
+            	<div class="select1">Квартира
+            		<div class="option1">
+            			<input type="checkbox">Квартира<br>
+            			<input type="checkbox">Дом<br>
+            			<input type="checkbox">Тайнхаус<br>
+            			<input type="checkbox">Коммерческая
+            		</div>
+            	</div>
+            </div>
+            <div class="catalog-realty_form2">
+            	<h3>Комнат</h3>
+            	<div class="select2">3,4,5
+            		<div class="option2">
+            			<input type="checkbox">3 <br>
+            			<input type="checkbox">4 <br>
+            			<input type="checkbox">5
+            		</div>
+            	</div>
+            </div>
+            <div class="catalog-realty_form3">
+            	<h3>Статус аукциона</h3>
+            	<div class="select3">Все
+					<div class="option3">
+						<input type="checkbox">Все <br>
+						<input type="checkbox">Действует <br>
+						<input type="checkbox">Скоро начнется <br>
+						<input type="checkbox">Завершен
+					</div>
+            	</div>
+            </div>
+            <div class="catalog-realty_form4">
+            	<h3>Цена</h3>
+            	<div class="catalog-realty_form_wrap">
+            		<div class="catalog-realty_form__price">
+            			<input type="text" placeholder="от">
+            		</div>
+            		<div class="catalog-realty_form__price">
+            			<input type="text" placeholder="-до">
+            		</div>
+            	</div>
+            </div>
+            <div class="catalog-realty_form5">
+            	<h3>Площадь</h3>
+            	<div class="catalog-realty_form_wrap">
+            		<div class="catalog-realty_form__area">
+            			<input type="text" placeholder="от">
+            		</div>
+            		<div class="catalog-realty_form__area">
+            			<input type="text" placeholder="-до">
+            		</div>
+            	</div>
+            </div>
+            <div class="catalog-realty_form6">
+            	<h3>Город, район, метро, адрес</h3>
+            	<div class="catalog-realty_form__adress">
+            		<input type="text" placeholder="Москва">
+            	</div>
+            </div>
             <button class="catalog-realty_button__viewInMaps">
                 <i class="fas fa-map-marker-alt"></i>
                 Показать на карте

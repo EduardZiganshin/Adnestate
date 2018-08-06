@@ -160,15 +160,16 @@
 .catalog-realty {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     position: relative;
+    margin-bottom: 101px;
 }
 
-.catalog-realty h1 {
+.catalog-realty_title {
+    /* display: block; */
+    margin: 0 auto;
     width: 100%;
-    /* Каталог недвижимости */
-
     font-family: "Oranienbaum";
     font-style: normal;
     font-weight: normal;
@@ -182,7 +183,183 @@
     margin-bottom: 22px;
 }
 
-.multiselect {
+.catalog-realty_form1,
+.option1 {
+    width: 10.21%;
+}
+
+.catalog-realty_form2,
+.option2 {
+    width: 7.85%;
+}  
+
+.catalog-realty_form3,
+.option3 {
+    width: 10%;
+}
+
+.catalog-realty_form4 {
+    width: 13.2%;
+}
+
+.catalog-realty_form5 {
+    width: 11.04%;
+}
+
+.catalog-realty_form6 {
+    width: 13.61%;
+}
+
+.catalog-realty h3 {
+    display: block;
+    height: 20px;
+    width: 100%;
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.catalog-realty_form1 .select1,
+.catalog-realty_form2 .select2,
+.catalog-realty_form3 .select3 {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 16px;
+    color: #000000;
+    /* padding-left: 6px; */
+}
+
+.select1,
+.select2,
+.select3 {
+    /* width: 100%; */
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.25);
+    /* position: relative; */
+}
+
+.select1 .option1,
+.select2 .option2,
+.select3 .option3 {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+}
+
+.select1:hover .option1,
+.select2:hover .option2,
+.select3:hover .option3 {
+    display: block;
+    margin-top: 10px;
+    /* width: 100%; */
+}
+
+.option1 input[type="checkbox"],
+.option2 input[type="checkbox"],
+.option3 input[type="checkbox"] {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.select1::after,
+.select2::after,
+.select3::after {
+    content: ''; 
+    position: absolute;
+    border: 5px solid transparent;
+    bottom: 4px;
+    border-top: 5px solid #000;
+}
+
+.select1::after {
+    left: 375px;
+}
+
+.select2::after {
+    left: 489px;
+}
+
+.select3::after {
+    left: 633px;
+}
+
+.select1:hover::after,
+.select2:hover::after,
+.select3:hover::after {
+    content: ''; 
+    position: absolute;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #000;
+    bottom: 10px;
+}
+
+.catalog-realty_form_wrap {
+    display: flex;
+}
+
+.catalog-realty_form__price,
+.catalog-realty_form__area {
+    width: 50%;
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 16px;
+    color: #828282;
+    text-align: right;
+    position: relative;
+}
+
+.catalog-realty_form__price:last-child::after {
+    content: "\20BD";
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.catalog-realty_form__area:last-child::after {
+    content: "м\00B2";
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.catalog-realty_form__price input[type="text"],
+.catalog-realty_form__area input[type="text"],
+.catalog-realty_form__adress input[type="text"] {
+    width: 100%;
+    padding-left: 4px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-left: none;
+    border-right: none;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+    padding: 3px 0 2px 6px;
+}
+
+.catalog-realty_form__price input[type="text"]:focus,
+.catalog-realty_form__area input[type="text"]:focus,
+.catalog-realty_form__adress input[type="text"]:focus {
+    outline: none;
+}
+.catalog-realty_form__price input[type="text"]::placeholder,
+.catalog-realty_form__area input[type="text"]::placeholder,
+.catalog-realty_form__adress input[type="text"]::placeholder {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    font-size: 16px;
+    color: #828282; 
+}
+
+/* .multiselect {
     width: 147px;
 }
 
@@ -202,7 +379,6 @@
     font-weight: 300;
     line-height: normal;
     font-size: 16px;
-
     color: #000000;
 
 }
@@ -231,7 +407,6 @@
 }
 
 .catalog-realty_form span {
-    /* Тип недвижимости */
     width: 100%;
     font-family: "SourceSansPro";
     font-style: normal;
@@ -271,7 +446,6 @@
 .catalog-realty_form__price input {
     width: 95px;
     height: 30px;
-    /*border-right: 1px solid transparent;*/
 }
 
 .catalog-realty_form__area input {
@@ -286,7 +460,7 @@
 .catalog-realty_form__adress input {
     width: 196px;
     height: 30px;
-}
+} */
 
 .catalog-realty_button__viewInMaps:focus,
 .catalog-realty_button__search:focus {
@@ -309,7 +483,7 @@
     text-transform: uppercase;
     color: #311B92;
     position: absolute;
-    top: 160px;
+    top: 60px;
     right: 328px;
 }
 
@@ -326,7 +500,7 @@
     text-transform: uppercase;
     color: #F2F2F2;
     position: absolute;
-    top: 160px;
+    top: 60px;
     right: 243px;
     border: none;
 }
