@@ -1,0 +1,758 @@
+.title h1 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 51px 0 17px 0;
+}
+
+.auction_house {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../img/auction_house_bg.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 48px 0 133px 0;
+    filter: brightness(0.7);
+}
+
+.auction_house h1 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 42px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.auction_house article {
+    display: block;
+    margin: 0 auto;
+    width: 28.61%;
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+.objects {
+    width: 100%;
+    padding-top: 57px;
+}
+
+.objects h1 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.object_lukov,
+.object_corona,
+.object_ponds,
+.object_captain {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: 41px;
+}
+
+.object_corona,
+.object_captain {
+    justify-content: flex-start;
+}
+
+.object_lukov .description {
+    margin-right: 0.5%;
+}
+
+.object_lukov .description h2,
+.object_corona .description h2,
+.object_ponds .description h2,
+.object_captain .description h2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+}
+
+.object_lukov .description p,
+.object_corona .description p,
+.object_ponds .description p,
+.object_captain .description p {
+    display: block;
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.object_lukov .description,
+.object_ponds .description {
+    max-width: 33.75%;
+    margin-left: 16.88%;
+}
+
+.object_corona .description,
+.object_captain .description {
+    max-width: 33.75%;
+}
+
+.object_lukov .images,
+.object_corona .images,
+.object_ponds .images,
+.object_captain .images {
+    max-width: 32.43%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.object_lukov .images,
+.object_corona .images,
+.object_ponds .images,
+.object_captain .images {
+    margin-right: 1.39%;
+}
+
+.object_lukov .images .images_first,
+.object_corona .images .images_first,
+.object_ponds .images .images_first,
+.object_captain .images .images_first {
+    max-width: 100%;
+    margin-bottom: 1.14%;
+}
+
+.object_lukov .images .images_second,
+.object_corona .images .images_second,
+.object_ponds .images .images_second,
+.object_captain .images .images_second,
+.object_lukov .images .images_third,
+.object_corona .images .images_third,
+.object_ponds .images .images_third,
+.object_captain .images .images_third {
+    max-width: 47.75%;
+}
+
+
+.object_lukov .location,
+.object_corona .location,
+.object_ponds .location,
+.object_captain .location {
+    position: relative;
+}
+
+.object_lukov .location svg,
+.object_corona .location svg,
+.object_ponds .location svg,
+.object_captain .location svg {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+}
+
+.object_corona .location,
+.object_captain .location {
+    margin-right: 1.39%;
+}
+
+.three_sale_method {
+    width: 100%;
+    margin-top: 58px;
+}
+
+.three_sale_method-header {
+    width: 100%;
+    background-image: url('../img/3_sale_method_header_BG.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 86px 0;
+}
+
+.three_sale_method-header h1 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 42px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.three_sale_method_body {
+    width: 100%;
+    background-image: url("../img/3sale_method_BG.svg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.three_sale_method_body h2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 39px;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.three_sale_method_body ul {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 36px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+.three_sale_method_body .sale_method1,
+.three_sale_method_body .sale_method2,
+.three_sale_method_body .sale_method3 {
+    background-color: #fff;
+    /* -webkit-background-size: cover;
+    background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* padding-left: 40px; */
+    padding-top: 37px;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.three_sale_method_body .sale_method1 {
+    width: 23.96%;
+    margin-right: 21px;
+    background-image: url("../img/sale_method1_BG.svg");
+    padding-bottom: 149px;
+}
+
+.three_sale_method_body .sale_method1 li::before {
+    content: '-';
+    background: #EB5757;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+
+.three_sale_method_body .sale_method2 {
+    width: 23.96%;
+    margin-right: 19px;
+    background-image: url("../img/sale_method2_BG.svg");
+    padding-bottom: 38px;
+}
+
+.three_sale_method_body .sale_method2 li::before {
+    content: '-';
+    background: #EB5757;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+
+.three_sale_method_body .sale_method3 {
+    width: 32.36%;
+    background-image: url("../img/sale_method3_BG.svg");
+    padding-bottom: 38px;
+    border: 1px solid #000000;
+}
+
+.three_sale_method_body .sale_method3 p {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.three_sale_method_body .sale_method3 li::before,
+.three_sale_method_body .sale_method2 li:first-child::before,
+.three_sale_method_body .sale_method1 li:first-child::before {
+    content: '+';
+    background: #6FCF97;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+
+.sell_effect {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+
+.sell_effect img {
+    margin-right: 19px;
+}
+
+.sell_effect_text {
+    padding-top: 26px;
+}
+
+.sell_effect_text h2 {
+    display: block;
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.sell_effect_text svg{
+    position: absolute;
+    bottom: 5px;
+    right: 60px;
+}
+
+.sell_effect_text p {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-left: 36px;
+}
+
+.sell_effect_text p::after {
+    content: "";
+    width: 0px;
+    height: 225px;
+    border: 1px solid #C4C4C4;
+    position: absolute;
+    top: 13px;
+    left: 25px;    
+}
+
+.trading_tools {
+    width: 100%;
+    margin-top: 56px;
+}
+
+.trading_tools img {
+    width: 100%;
+}
+
+.trading_tools_title {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.effect_3d {
+    width: 100%;
+}
+
+.effect_3d_title {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.effect_3d p {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.effect_3d_img_wrap {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.effect_3d_img_wrap .effect_3d_img1, 
+.effect_3d_img_wrap .effect_3d_img2,
+.effect_3d_img_wrap .effect_3d_img3  {
+    position: absolute;
+}
+
+.effect_3d_img_wrap .effect_3d_img1 {
+    bottom: 0;
+    left: 8.46%;
+    z-index: 1;
+}
+
+.effect_3d_img_wrap .effect_3d_img2 {
+    top: 0;
+    right: 8.46%;
+}
+
+.effect_3d_img_wrap .effect_3d_img3 {
+    bottom: 0;
+    right: 8.46%;
+}
+
+.home_staging {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.home_staging_title {
+    width: 100%;
+    display: block;
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.home_staging_title span {
+    font-size: 36px;
+    color: #311B92;
+}
+
+.home_staging_img_wrap {
+    position: relative;
+}
+
+.home_staging_img_wrap span {
+    display: block;
+    width: 26.12%;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000;
+}
+
+.video-presentation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 64px;
+}
+
+.video-presentation h2 {
+    display: block;
+    width: 32.43%;
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 39px;
+    font-size: 26px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 1.39%;
+}
+
+.sales_plan {
+    background: url('../img/sales_plan_BG_img.png'), url("../img/sales_plan_BG.svg");
+    -webkit-background-size: 691px, cover;
+    background-size: 691px, cover;
+    background-position: bottom left, top left;
+    background-repeat: no-repeat;
+    padding: 0.97% 16.88% 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sales_plan_items {
+    width: 32.43%;
+    background-color: #fff;
+    margin: 14px 0;
+    background-image: url("../img/sales_plan_question.svg");
+    -webkit-background-size: 74px 133px;
+    background-size: 74px 133px;
+    background-repeat: no-repeat;
+    background-position: 300px 53px;
+    padding-bottom: 34px;
+}
+
+.sales_plan_items h2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 40px;
+    margin: 0 0 28px 45px;
+}
+
+.sales_plan_items p {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 26px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    margin: 28px 44px 44px 45px;
+}
+
+.sales_plan_items span {
+    display: block;
+    width: 100%;
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 63px;
+    font-size: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.target_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+    padding-bottom: 40px;
+}
+
+.target {
+    background-color: #fff;
+    width: 55.49%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px 31px 20px 122px;
+}
+
+.target_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.target_img img {
+    margin-right: 18px;
+}
+
+.target h2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 57px;
+}
+
+.target h2 span {
+    font-size: 26px;
+}
+
+.target p {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.our_clients {
+    background-image: url("../img/our_clients_BG.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our_clients {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 7.43%;
+}
+
+.our_clients_title {
+    display: flex;
+}
+
+.our_clients_title h2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 152px;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 16.81%;
+}
+
+.our_clients ul {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 25.21%;
+}
+
+.office_location {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+    margin-bottom: 41px;
+}
+
+.office_location_img1,
+.office_location_img2,
+.office_location_img3 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.office_location_img1 img,
+.office_location_img2 img,
+.office_location_img3 img {
+    width: 100%;
+}
+
+.office_location_img1,
+.office_location_img2 {
+    width: 23.96%;
+}
+
+.office_location_img3 {
+    width: 49.31%;
+}
+
+.office_location_img2 {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.office_location_img2 h2 {
+    display: block;
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 39px;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 19px;
+    margin-bottom: 53px;
+}
+
+
+/* @media  and (max-width: 1460px) {
+    .object_lukov .description,
+    .object_ponds .description {
+    max-width: 33.75%;
+    margin-left: 8.88%;
+}
+
+.object_corona .description,
+.object_captain .description {
+    max-width: 33.75%;
+    margin-right: 8.55%;
+}
+
+
+} */

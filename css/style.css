@@ -12,10 +12,15 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #E5E5E5;
+}
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 1440px;
+    background-color: #fff;
 }
 
 .header {
@@ -32,10 +37,6 @@
     background: #000000;
     padding: 0.9% 0.76% 0.8% 0;
 }
-
-/* .header_logo__item {
-    margin: 3.8% 3.2% 2% 185px;
-} */
 
 .header_nav {
     display: flex;
@@ -65,8 +66,6 @@
 }
 
 .header_phone {
-    /* padding-top: 44px; */
-    /* padding-bottom: 31px; */
     font-family: "SourceSansPro";
     font-style: normal;
     font-weight: 300;
@@ -256,7 +255,7 @@
 .select2:hover .option2,
 .select3:hover .option3 {
     display: block;
-    margin-top: 10px;
+    margin-top: 1px;
     /* width: 100%; */
 }
 
