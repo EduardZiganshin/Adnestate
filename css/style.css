@@ -266,6 +266,32 @@ body {
     margin-left: 9px;
 }
 
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label::before {
+    content: "\2713";
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 14px;    
+    line-height: 16px;
+    margin: 5px 5px 14px 10px;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+input[type=checkbox]:checked + label::before {
+    color: #fff;
+    background-color: #000;
+}
+
+
 .select1::after,
 .select2::after,
 .select3::after {
@@ -357,109 +383,6 @@ body {
     font-size: 16px;
     color: #828282; 
 }
-
-/* .multiselect {
-    width: 147px;
-}
-
-.selectBox {
-    position: relative;
-}
-
-.selectBox select {
-    height: 30px;
-}
-
-.selectBox select,
-.checkboxes {
-    width: 100%;
-    font-family: "SourceSansPro";
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 16px;
-    color: #000000;
-
-}
-
-.overSelect {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-#checkboxesProperty,
-#checkboxesRoom,
-#checkboxesAuction {
-    display: none;
-    border: 1px #dadada solid;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-
-#checkboxesProperty label,
-#checkboxesRoom label,
-#checkboxesAuction label {
-    display: block;
-}
-
-.catalog-realty_form span {
-    width: 100%;
-    font-family: "SourceSansPro";
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 14px;
-    color: #000000;
-
-}
-
-.catalog-realty_form {
-    display: flex;
-    margin: 0;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 101px;
-}
-
-.catalog-realty_form__price input,
-.catalog-realty_form__area input,
-.catalog-realty_form__adress input {
-    font-family: "SourceSansPro";
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 16px;
-    color: #000000;
-    border: 1px solid #C4C4C4;
-}
-
-.catalog-realty_form__price input:focus,
-.catalog-realty_form__area input:focus,
-.catalog-realty_form__adress input:focus {
-    outline: none;
-}
-
-.catalog-realty_form__price input {
-    width: 95px;
-    height: 30px;
-}
-
-.catalog-realty_form__area input {
-    width: 80px;
-    height: 30px;
-}
-
-.catalog-realty_form__adress {
-    width: 196px;
-}
-
-.catalog-realty_form__adress input {
-    width: 196px;
-    height: 30px;
-} */
 
 .catalog-realty_button__viewInMaps:focus,
 .catalog-realty_button__search:focus {
