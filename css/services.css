@@ -1,0 +1,137 @@
+.services {
+   width: 100%;
+}
+
+.services h1 {
+   width: 100%;
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 36px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 25px;
+}
+
+.sell,
+.buy {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 50px;
+}
+
+.services span {
+   display: block;
+   margin: 0 auto;
+   width: 32.5%;
+}
+
+.services .sell h2,
+.services .buy h2{
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 13px;
+}
+
+.services .sell p,
+.services .buy p {
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: 27px;
+   font-size: 18px;
+   color: #000000;
+   text-align: justify;
+   margin-bottom: 25px;
+}
+
+.sell form {
+   text-align: center;
+}
+.sell input[type="text"],
+.sell button {
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: 30px;
+   font-size: 14px;
+   background: #FFFFFF;
+   border-radius: 2px;
+   margin-bottom: 10px;
+   outline: none;
+}
+
+.sell input[type="text"] {
+   width: 45.1%;
+   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+   color: #828282;
+   padding-left: 9px;
+}
+
+.sell button {
+   width: 47.86%;
+   text-transform: uppercase;
+   color: #311B92;
+   border: 1px solid rgba(49, 27, 146, 0.4);
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-left: -7px;
+}
+
+.sell input[type="text"]::placeholder {
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   font-size: 14px;
+   color: #828282;
+   /*padding-left: 9px;*/
+}
+
+.services .buy a {
+   display: block;
+   margin: 0 auto;
+   width: 47.86%;
+   height: 30px;
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: 30px;
+   font-size: 14px;
+   text-transform: uppercase;
+   text-align: center;
+   text-decoration: none;
+   color: #311B92;
+   background: #FFFFFF;
+   border: 1px solid rgba(49, 27, 146, 0.4);
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 2px;
+}
+
+.services .buy a:hover,
+.sell button:hover {
+   cursor: pointer;
+   background: #311B92;
+   color: #FFFFFF;
+}
+
+.services .buy a:active,
+.sell button:active{
+   background: #6200EA;
+   color: #F2F2F2;
+}
+
+.subscription {
+   margin-bottom: 60px;
+}

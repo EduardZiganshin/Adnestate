@@ -1,0 +1,192 @@
+.catalog_galery {
+    display: block;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    /*justify-content: center;*/
+}
+
+.catalog_galery_line1,
+.catalog_galery_line2,
+.catalog_galery_line3,
+.catalog_galery_line4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.catalog_galery__wrap1 h2,
+.catalog_galery__wrap2 h2,
+.catalog_galery__wrap3 h2,
+.catalog_galery__wrap4 h2,
+.catalog_galery__wrap5 h2,
+.catalog_galery__wrap6 h2,
+.catalog_galery__wrap7 h2,
+.catalog_galery__wrap8 h2,
+.catalog_galery__wrap9 h2,
+.catalog_galery__wrap10 h2,
+.catalog_galery__wrap11 h2,
+.catalog_galery__wrap12 h2 {
+    font-family: "Oranienbaum";
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.catalog_galery a:hover {
+    filter: brightness(30%);
+    transition: 0.5s;
+}
+
+.catalog_galery__wrap1:hover .catalog_galery__price,
+.catalog_galery__wrap2:hover .catalog_galery__price,
+.catalog_galery__wrap3:hover .catalog_galery__price,
+.catalog_galery__wrap4:hover .catalog_galery__price,
+.catalog_galery__wrap5:hover .catalog_galery__price,
+.catalog_galery__wrap6:hover .catalog_galery__price,
+.catalog_galery__wrap7:hover .catalog_galery__price,
+.catalog_galery__wrap8:hover .catalog_galery__price,
+.catalog_galery__wrap9:hover .catalog_galery__price,
+.catalog_galery__wrap10:hover .catalog_galery__price,
+.catalog_galery__wrap11:hover .catalog_galery__price,
+.catalog_galery__wrap12:hover .catalog_galery__price{
+    background: #110A35;
+}
+
+.catalog_galery__wrap1,
+.catalog_galery__wrap2,
+.catalog_galery__wrap3,
+.catalog_galery__wrap4,
+.catalog_galery__wrap5,
+.catalog_galery__wrap6,
+.catalog_galery__wrap7,
+.catalog_galery__wrap8,
+.catalog_galery__wrap9,
+.catalog_galery__wrap10,
+.catalog_galery__wrap11,
+.catalog_galery__wrap12{
+    width: 25.49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /*margin: 0 48px 40px 0;*/
+}
+
+.catalog_galery a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.catalog_galery__wrap1 a {
+    background-image: url("../img/catalog_smolensky.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+
+.catalog_galery__wrap2 a {
+    background-image: url("../img/catalog_grand_park.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+
+.catalog_galery__wrap3 a {
+    background-image: url("../img/catalog_alie_parusa.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+
+.catalog_galery__wrap4 a {
+    background-image: url("../img/catalog_lujki.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+
+.catalog_galery__wrap5 a {
+    background-image: url("../img/catalog_vladichino.png");
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.catalog_galery__wrap6 a {
+    background-image: url("../img/catalog_fili_grad.png");
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.catalog_galery__wrap7 a {
+    background-image: url("../img/catalog_sadovaya_itali.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+.catalog_galery__wrap8 a {
+    background-image: url("../img/catalog_apartment_3rooms.png");
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.catalog_galery__wrap9 a {
+    background-image: url("../img/catalog_appartment_on_pokrovsky.png");
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.catalog_galery__wrap10 a {
+    background-image: url("../img/catalog_grand_park.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+
+.catalog_galery__wrap11 a {
+    background-image: url("../img/catalog_alie_parusa.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+
+.catalog_galery__wrap12 a {
+    background-image: url("../img/catalog_lujki.png");
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+.catalog_galery__text {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "SourceSansPro";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: right;
+    color: #000000;
+}
+
+.catalog_galery__text p {
+    margin-right: 9px;
+    margin-left: 30px;
+}
+
+.catalog_galery__price {
+    width: 150px;
+    height: 50px;
+    background: #000000;
+    font-family: "Oranienbaum";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 17px;
+}

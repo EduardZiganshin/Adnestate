@@ -1,0 +1,67 @@
+.team h1 {
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 36px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 28px;
+   margin-top: 51px;
+}
+
+.team_galery {
+   width: 100%;
+}
+
+.team_galery_line1,
+.team_galery_line2,
+.team_galery_line3,
+.team_galery_line4 {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.team_galery_line1 {
+   margin-bottom: 33px;
+}
+
+.team_galery_line2 {
+   margin-bottom: 20px;
+}
+
+.team_galery_line3,
+.team_galery_line4{
+   margin-bottom: 42px;
+}
+
+.team_galery_wrap {
+   display: block;
+   width: 20.83%;
+   text-align: center;
+}
+
+.team_galery_wrap h2 {
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 25px;
+}
+
+.team_galery_wrap p {
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   font-size: 18px;
+   text-align: center;
+   color: #000000;
+}

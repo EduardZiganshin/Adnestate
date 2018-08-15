@@ -1,42 +1,17 @@
-// var expanded = false;
-
-// function showCheckboxes() {
-//     var checkboxesProperty = document.getElementById("checkboxesProperty");
-//     if (!expanded) {
-//         checkboxesProperty.style.display = "block";
-//         expanded = true;
-//     } else {
-//         checkboxesProperty.style.display = "none";
-//         expanded = false;
+//находим текущее окно и присваиваем ссылке в меню класс active
+// $(document).ready(function($) {
+//   var url = document.location.pathname;
+//   console.log(url);
+//   $('.header_nav').each(function (){
+//     var link = $(this).find('a').attr('href');
+//     console.log(link);
+//     if(this.href == url){
+//       $(this).addClass('active');
 //     }
-// }
+//   });
+// });
 
-// var expanded1 = false;
-
-// function showCheckboxes1() {
-//     var checkboxesRoom = document.getElementById("checkboxesRoom");
-//     if (!expanded1) {
-//         checkboxesRoom.style.display = "block";
-//         expanded1 = true;
-//     } else {
-//         checkboxesRoom.style.display = "none";
-//         expanded1 = false;
-//     }
-// }
-
-// var expanded2 = false;
-
-// function showCheckboxes2() {
-//     var checkboxesRoom = document.getElementById("checkboxesAuction");
-//     if (!expanded2) {
-//         checkboxesAuction.style.display = "block";
-//         expanded2 = true;
-//     } else {
-//         checkboxesAuction.style.display = "none";
-//         expanded2 = false;
-//     }
-// }
-
+//активируем слайдер Swiper
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -50,3 +25,4 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+

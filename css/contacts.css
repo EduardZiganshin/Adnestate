@@ -1,0 +1,184 @@
+.contacts {
+   display: flex;
+   flex-wrap: wrap;
+}
+.contacts h1 {
+   width: 100%;
+   display: block;
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 36px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 27px;
+   margin-top: 51px;
+}
+
+.location {
+   width: 66.18%;
+   background-image: url("../img/contacts_location_BG.png");
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 40px;
+}
+
+.adress {
+   /*display: flex;*/
+   /*flex-direction: column;*/
+   width: 36.2%;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 2px;
+   padding:34px 0 39px 28px;
+   margin: 41px 0 90px 122px;
+}
+
+.adress h3 {
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 17px;
+}
+
+.adress p {
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   font-size: 18px;
+   color: #000000;
+   margin-bottom: 34px;
+}
+
+.adress p span {
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   border-radius: 2px;
+}
+.adress_facebook,
+.adress_instagram,
+.adress_youtube {
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-color: #000;
+   border-radius: 50%;
+   text-align: center;
+   color: #fff;
+   margin: 0 10px;
+}
+
+.adress_facebook {
+   margin-left: 0;
+}
+
+.form {
+   width: 24%;
+   display: block;
+   margin-left: 20px;
+}
+
+.form form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.form h3 {
+   font-family: "Oranienbaum";
+   font-style: normal;
+   font-weight: normal;
+   line-height: normal;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 64px;
+   margin-bottom: 15px;
+}
+
+.form input[type="email"],
+.form textarea{
+   outline: none;
+   background: #FFFFFF;
+   box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+   border-radius: 2px;
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   font-size: 16px;
+   color: #828282;
+   padding: 4px 8px;
+}
+
+.form input[type="email"] {
+   width: 94%;
+   /*margin-bottom: 10px;*/
+}
+
+.form textarea {
+   width: 94.5%;
+   resize: none;
+   /*margin-bottom: 11px;*/
+}
+
+.form button {
+   width: 158px;
+   background: #311B92;
+   border-radius: 2px;
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   line-height: 30px;
+   font-size: 14px;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 0 auto ;
+   color: #F2F2F2;
+   margin-bottom: 13px;
+}
+
+.form button:hover {
+   cursor: pointer;
+   background: #6200EA;
+   color: #F2F2F2;
+}
+
+.form button:active {
+   background: #311B92;
+   color: #F2F2F2;
+}
+
+.form p {
+   display: block;
+   margin: 0 auto;
+   width: 300px;
+   font-family: "SourceSansPro";
+   font-style: normal;
+   font-weight: 300;
+   /*line-height: 100px;*/
+   font-size: 16px;
+   text-align: center;
+   color: #828282;
+}
+
+.form p span {
+   /*display: block;*/
+   text-decoration: underline;
+}
